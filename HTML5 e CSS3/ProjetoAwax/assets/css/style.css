@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.header {
+    width: 80%;
+    color: white;
+    margin:auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.logoimg{
+    display:flex;
+    align-items: center;
+}
+.logoimg img{
+    height: 93px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.menu {
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.quad {
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+}
