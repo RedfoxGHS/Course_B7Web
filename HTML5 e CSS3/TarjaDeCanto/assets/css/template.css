@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.selo{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(176, 100, 247);
+    justify-content: center;
+    align-items: center;
+    border: 4px double white;
+    transform: rotate(-45deg);
+    position: fixed;
+    left: -150px;
+    top: 50px;
+}
+
+img{
+    height: 105%;
+}
+.orochi_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orochi{
+    height: 900px;
+}
