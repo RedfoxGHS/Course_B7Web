@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+
+.area{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    height: 625px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.area_foto img{
+    height: 600px;
+    background-color: rgb(150, 150, 150);
+    border: 2px solid white;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+.desc_header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desc_header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+}
+.area_foto{
+    margin-right: 100px;
+}
+
+.area_quadrado{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.quad{
+    display: flex;
+    border:2px solid white;
+    background-color: rgb(82, 82, 82);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section .area{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    color: white;
+}
+
+.left, .right{
+    padding: 15px;
+}
+.left{
+    flex:1;
+}
+.right{
+    flex: 3;
+}
+.left h1{
+    font-size: 30px;
+}
+.area .right h3{
+    font-weight: normal;
+    margin-top: 10px;
+}
+.container .area{
+    border-bottom: 1px solid white;
+}
+
+.cam {
+    display:flex;
+
+    margin: 2px;
+}
+
+.lt, .rt{
+    flex: 1;
+}
+
+footer{
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    height: 250px;
+}
