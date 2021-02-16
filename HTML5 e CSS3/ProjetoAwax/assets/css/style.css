@@ -1,3 +1,7 @@
+/*
+ CSS de Interface
+*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,7 +10,7 @@
 }
 
 body{
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -28,13 +32,19 @@ header {
      
     
 }
-.logoimg{
+.logoimg {
     display:flex;
     align-items: center;
+    
 }
-.logoimg img{
+.logoimg img {
     height: 93px;
     border-radius: 50px;
+    border: 2px solid rgb(139, 139, 139);
+}
+
+.logoimg img:hover {
+    border: 2px solid #B28756;
 }
 
 .logo {
@@ -177,5 +187,81 @@ main{
 }
 
 .default{
-    background-color: red;
+  
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.default .section_title,
+.default .section_desc {
+    text-align: center;
+    max-width: 80%;
+    margin:auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.default .section_title {
+    font-size: 20px;
+}
+
+.default .section_desc{
+    font-size: 13px;
+    color:rgb(190, 190, 190);
+    margin-top: 13px;
+    margin-bottom: 35px;
+}
+
+.default .section_body {
+    max-width: 80%;
+    margin:auto;
+    
+}
+
+.default.light {
+    background-color: #f7f7f7;
+}
+
+.default.light .section_title,
+.default.light .section_body {
+    color: black;
+}
+
+.default.dark {
+    background-color: black;
+}
+
+.default.dark .section_title,
+.default.dark .section_body{
+    color: white;
+}
+
+
+
+/*
+    Area: About Us
+*/
+
+.section_aboutus {
+    display:flex;
+}
+
+.section_aboutus_left{
+    flex:1;
+    
+}
+
+.section_aboutus_right{
+    width: 35%;
+    margin-left: 50px;
+}
+video:focus {
+    border:none;
+} 
+video{
+    width: 444px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
