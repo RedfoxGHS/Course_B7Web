@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../imagens/fundo.png");
+    
+    
+}
+header{
+    background-color: rgb(235, 165, 175);
+    
+}
+.title_head{
+    display: flex;
+    width: 100%;
+    color: rgb(20, 36, 52);
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.middle_body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.form_area{
+    display: flex;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form_cad {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.form_cad div {
+    display: flex;
+    flex:1;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 300px;
+    padding: 10px;
+    box-sizing:border-box;
+    align-items: center;
+    flex-direction: column;
+}
+.form_cad div h5{
+    text-align: left;
+    width: 81%;
+    padding-top: 5px;
+    color: rgb(240, 140, 155);
+}
+input {
+    width: 80%;
+    height: 30px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border:2px solid rgb(240, 140, 155);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.form_area img {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 75px;
+}
+
+.traco {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+}
+
+.form_cad div button{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border:2px solid rgb(240, 140, 155);
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-image: url("../imagens/pink_clouds.png");
+    background-size: cover;
+    border-top: 2px solid rgb(252, 166, 179);
+    
+    
+}
+
+.footer_body{
+   
+    width: 70%;
+    
+    
+}
+
+.footer_area_top{
+    display: flex;
+    justify-content: center;
+}
+.footer_area_top div{
+    flex: 1;
+    margin-top: 20px;
+}
+
+.footer_area_top div h5{
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-size: 18px;
+}
+
+.footer_area_top div a{
+    text-decoration: none;
+}
+
+.footer_area_top div a h6{
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 13px;
+
+}
+
+.copyright {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid black;
+    color: white;
+    
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+.icones{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.icones img{
+    width: 70px;
+    margin-right: 30px;
+}
